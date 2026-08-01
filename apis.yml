@@ -1,7 +1,25 @@
 aid: time-is-ltd
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/time-is-ltd.png
 name: Time is Ltd
-description: 'Time is Ltd is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Time is Ltd. is a collaboration analytics company that turns workplace
+  communication and productivity data into actionable insights for HR, sales, and
+  operations teams. Its platform connects to tools such as Google Workspace, Microsoft
+  365, Slack, Zoom, Salesforce, Webex, and Tableau to measure meetings, focus time,
+  and collaboration patterns, then reports on team performance, employee engagement,
+  and revenue outcomes. Backed by Accel and profiled in the API Evangelist network,
+  Time is Ltd. exposes no public developer API; integrations are configured through
+  its hosted analytics application rather than a documented REST or GraphQL surface.'
 url: https://raw.githubusercontent.com/api-evangelist/time-is-ltd/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Ai
+- Analytics
+- Collaboration
+- Productivity
+- People Analytics
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +45,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/time-is-ltd-domain-security.yml
 - type: Website
-  url: http://www.timeisltd.com
+  url: https://www.timeisltd.com
+- type: Blog
+  url: https://www.timeisltd.com/resource-center#blog
+- type: PrivacyPolicy
+  url: https://www.timeisltd.com/privacy-policy-privacy-notice
+- type: TermsOfService
+  url: https://www.timeisltd.com/terms-and-conditions
+- type: Login
+  url: https://analytics.timeisltd.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
